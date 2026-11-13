@@ -1,16 +1,28 @@
 .header {
 }
+.header .container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .logo-header {
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .main-nav {
 }
 .main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .main-nav-item {
 }
 .main-nav-link {
+  padding: 24px 0;
+
   font-weight: 500;
   color: #2e2f42;
 }
@@ -20,12 +32,17 @@
 }
 
 .contacts {
+  margin-left: auto;
 }
 .contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .contacts-item {
 }
 .contacts-link {
+  padding: 24px 0;
 }
 .contacts-link:hover,
 .contacts-link:focus {

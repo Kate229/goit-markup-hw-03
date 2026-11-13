@@ -4,8 +4,18 @@
 .portfolio-title {
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-item {
+  width: calc((100% - 24px * 2) / 3);
+}
+.portfolio-card-bottom {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-pic {
 }
